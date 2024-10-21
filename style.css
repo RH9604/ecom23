@@ -1,58 +1,119 @@
-* { Astrix = Allt i CSS
+* {
     margin-block-start: 0;
     margin-block-end: 0;
 }
 
 body {
     margin: 0;
-}
-
-header {
-    background-color: #EEE;
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-nav {
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
-}
-
-.header-nav a {
-    color: 999;
-    font-size: 12px;
-    font-family:Arial, Helvetica, sans-serif;
-    /* text-decoration: none; För att bli av med understreck osv  */
-}
-
-.hero {
-    padding-top: 2rem;
-    background-color: #EEE;
-    text-align: center;
+    background-color: rgb(17, 39, 17);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    text-align: center;
 }
 
-.hero-buttons {
+header {
+    width: 100%;
     display: flex;
-    gap: 2rem;
 }
 
-.hero-buttons > button {
-    background-color: #222;
-    color:#EEE;
+.header-title-container {
+    background-image: url(Projekt\ header.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 655px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 96px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 106px;
+    color: rgb(188, 197, 189)
+}
+
+h2 {
+    margin: 0;
+    margin-left: 53rem;
+    font-size: 40px;
+    color: rgb(104, 126, 110);
+}
+
+.wrapper {
+    max-width: 1200px;
+}
+
+main {
+    width: 1200px;
+}
+
+.flex-container {
+    display: flex;
+    font-size: 40px;
+    color: rgb(188, 197, 189);
+}
+
+.rubrik {
+    background-image: url("Projekt\ liten.png");
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    display: flex;
-    gap: 0,5rem;
-    border-radius: 5px; 
 }
 
-.phone {
-    width: 25%;
+.empty {
+    background-image: none;
+    color: rgb(188, 197, 189);
+    background-color: rgb(9, 20, 9);
+}
+
+.reflektion {
+    background-color: rgb(188, 197, 189);
+    position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(17, 39, 17);
+}
+
+.reflektion h3 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.reflektion p {
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer {
+    height: 373px;
+    background-color: rgb(9, 20, 9);
+    color: rgb(188, 197, 189);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link-icon {
+    padding: 20px;
+}
+
+.signature-text {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(238, 248, 240);
+    padding: 6rem;
+}
+
+.yellow-text {
+    color: rgb(209, 199, 70);
 }
